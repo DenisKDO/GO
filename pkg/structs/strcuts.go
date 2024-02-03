@@ -9,6 +9,9 @@ type Player struct {
 	Country       string `json:"country"`
 	Height        string `json:"height"`
 	Weight        string `json:"weight"`
+	Spike         string `json:"spike"`
+	Block         string `json:"block"`
+	CurrentClub   string `json:"currentclub"`
 }
 
 // Volleyball team struct

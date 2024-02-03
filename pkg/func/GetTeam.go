@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-//adding struct with short information about players
+// adding struct with short information about players
 type shortInfo struct {
 	Fn  string `json:"first-name"`
 	Sn  string `json:"second-name"`
@@ -14,13 +14,13 @@ type shortInfo struct {
 	Un  string `json:"uniform-number"`
 }
 
-//function that get national team information by their country
+// function that get national team information by their country
 func GetTeam(w http.ResponseWriter, r *http.Request) {
 	//creating var with info about team
 	team := PrepareTeam()
 
 	//creating slice with short information to convert it into json
-	var shortInfos []
+	var shortInfos []shortInfo
 
 	//var with parameters
 	params := mux.Vars(r)
@@ -39,7 +39,7 @@ func GetTeam(w http.ResponseWriter, r *http.Request) {
 		}
 	}
 
-	//convert our slice of struct into json
+	//convert slice to json
 	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
 	jsonResponse, err := json.Marshal(shortInfos)
