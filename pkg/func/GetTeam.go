@@ -2,6 +2,7 @@ package _func
 
 import (
 	"encoding/json"
+	"github.com/gorilla/mux"
 	"net/http"
 )
 
@@ -15,14 +16,16 @@ type shortInfo struct {
 func GetTeam(w http.ResponseWriter, r *http.Request) {
 	team := PrepareTeam()
 	var shortInfos []shortInfo
+	params := mux.Vars(r)
 	for _, item := range team {
 		var shortInf shortInfo
 		shortInf.Fn = item.FirstName
 		shortInf.Sn = item.SecondName
 		shortInf.Pos = item.Position
 		shortInf.Un = item.UniformNumber
-
-		shortInfos = append(shortInfos, shortInf)
+		if item.Country == params["country"] {
+			shortInfos = append(shortInfos, shortInf)
+		}
 	}
 
 	w.Header().Set("Content-Type", "application/json")

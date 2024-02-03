@@ -13,7 +13,7 @@ func GetPlayer(w http.ResponseWriter, r *http.Request) {
 	var jsonResponse []byte
 	var err error
 	for _, item := range PrepareTeam() {
-		if item.UniformNumber == params["uniformnumber"] && item.Position == params["position"] {
+		if item.UniformNumber == params["uniformnumber"] && item.Position == params["position"] && item.Country == params["country"] {
 			jsonResponse, err = json.Marshal(item)
 		}
 	}
