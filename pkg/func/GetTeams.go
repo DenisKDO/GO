@@ -5,7 +5,10 @@ import (
 	"net/http"
 )
 
-func GetTeams(w http.ResponseWriter, r *http.Request) {
+type countries struct {
+	Name string
+}
 
-	fmt.Fprintf(w, "All avialable teams: Russia, Japan")
+func GetTeams(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "All national teams that my API have:\n-Russia\n-Japan")
 }
