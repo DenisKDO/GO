@@ -8,6 +8,7 @@ func PrepareTeam() []structs.Player {
 
 	var player structs.Player
 
+	//Japan voleyball national team
 	player.UniformNumber = "1"
 	player.Country = "Japan"
 	player.Position = "OP"
@@ -18,6 +19,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "350cm"
 	player.Block = "335cm"
 	player.CurrentClub = "Panasonic Panthers (Japan)"
+	player.DateOfBirth = "January 30, 2000 (age 24)"
 	players = append(players, player)
 
 	player.UniformNumber = "12"
@@ -30,6 +32,46 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "343cm"
 	player.Block = "315cm"
 	player.CurrentClub = "Vero Volley Monza (Italy)"
+	player.DateOfBirth = "September 2, 2001 (age 22)"
+	players = append(players, player)
+
+	player.UniformNumber = "15"
+	player.Country = "Japan"
+	player.Position = "OH"
+	player.FirstName = "Masahiro"
+	player.SecondName = "Yanagida"
+	player.Height = "186cm"
+	player.Weight = "80kg"
+	player.Spike = "335cm"
+	player.Block = "305cm"
+	player.CurrentClub = "Tokyo Great Bears (Japan)"
+	player.DateOfBirth = "July 6, 1992 (age 31)"
+	players = append(players, player)
+
+	player.UniformNumber = "18"
+	player.Country = "Japan"
+	player.Position = "OP"
+	player.FirstName = "Hiroto"
+	player.SecondName = "Nishiyama"
+	player.Height = "193cm"
+	player.Weight = "77kg"
+	player.Spike = "355cm"
+	player.Block = "330cm"
+	player.CurrentClub = "Panasonic Panthers (Japan)"
+	player.DateOfBirth = "March 4, 2003 (age 20)"
+	players = append(players, player)
+
+	player.UniformNumber = "19"
+	player.Country = "Japan"
+	player.Position = "L"
+	player.FirstName = "Satoshi"
+	player.SecondName = "Tsuiki"
+	player.Height = "174cm"
+	player.Weight = "74kg"
+	player.Spike = "UNKNOWN"
+	player.Block = "UNKNOWN"
+	player.CurrentClub = "Berlin Recycling Volleys (Germany)"
+	player.DateOfBirth = "January 16, 1992 (age 32)"
 	players = append(players, player)
 
 	player.UniformNumber = "14"
@@ -42,6 +84,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "351cm"
 	player.Block = "327cm"
 	player.CurrentClub = "Allianz Milano (Italy)"
+	player.DateOfBirth = "December 11, 1995 (age 28)"
 	players = append(players, player)
 
 	player.UniformNumber = "4"
@@ -54,6 +97,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "347cm"
 	player.Block = "320cm"
 	player.CurrentClub = "Paris Volley (France)"
+	player.DateOfBirth = "February 22, 1999 (age 24)"
 	players = append(players, player)
 
 	player.UniformNumber = "5"
@@ -66,6 +110,202 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "340cm"
 	player.Block = "325cm"
 	player.CurrentClub = "Panasonic Panthers (Japan)"
+	player.DateOfBirth = "November 5, 2000 (age 23)"
+	players = append(players, player)
+
+	player.UniformNumber = "23"
+	player.Country = "Japan"
+	player.Position = "MB"
+	player.FirstName = "Shunichiro"
+	player.SecondName = "Sato"
+	player.Height = "204cm"
+	player.Weight = "94kg"
+	player.Spike = "340cm"
+	player.Block = "323cm"
+	player.CurrentClub = "JTEKT Stings (Japan)"
+	player.DateOfBirth = "May 17, 2000 (age 23)"
+	players = append(players, player)
+
+	player.UniformNumber = "24"
+	player.Country = "Japan"
+	player.Position = "L"
+	player.FirstName = "Kazuyuki"
+	player.SecondName = "Takahashi"
+	player.Height = "170cm"
+	player.Weight = "62kg"
+	player.Spike = "310cm"
+	player.Block = "UNKNOWN"
+	player.CurrentClub = "JTEKT Stings (Japan)"
+	player.DateOfBirth = "January 26, 2000 (age 24)"
+	players = append(players, player)
+
+	player.UniformNumber = "25"
+	player.Country = "Japan"
+	player.Position = "MB"
+	player.FirstName = "Takahiro"
+	player.SecondName = "Namba"
+	player.Height = "198cm"
+	player.Weight = "UNKNOWN"
+	player.Spike = "UNKNOWN"
+	player.Block = "UNKNOWN"
+	player.CurrentClub = "Toray Arrows (Japan)"
+	player.DateOfBirth = "May 1, 1998 (age 25)"
+	players = append(players, player)
+
+	player.UniformNumber = "16"
+	player.Country = "Japan"
+	player.Position = "MB"
+	player.FirstName = "Go"
+	player.SecondName = "Murayama"
+	player.Height = "192cm"
+	player.Weight = "82kg"
+	player.Spike = "341cm"
+	player.Block = "317cm"
+	player.CurrentClub = "JTEKT Stings (Japan)"
+	player.DateOfBirth = "July 30, 1998 (age 25)"
+	players = append(players, player)
+
+	player.UniformNumber = "26"
+	player.Country = "Japan"
+	player.Position = "OH"
+	player.FirstName = "Akito"
+	player.SecondName = "Yamazaki"
+	player.Height = "190cm"
+	player.Weight = "75kg"
+	player.Spike = "345cm"
+	player.Block = "UNKNOWN"
+	player.CurrentClub = "Wolfdogs Nagoya (Japan)"
+	player.DateOfBirth = "October 16, 1997 (age 26)"
+	players = append(players, player)
+
+	player.UniformNumber = "27"
+	player.Country = "Japan"
+	player.Position = "L"
+	player.FirstName = "Soshi"
+	player.SecondName = "Fujinaka"
+	player.Height = "184cm"
+	player.Weight = "UNKNOWN"
+	player.Spike = "UNKNOWN"
+	player.Block = "UNKNOWN"
+	player.CurrentClub = "Suntory Sunbirds (Japan)"
+	player.DateOfBirth = "December 2, 1999 (age 24)"
+	players = append(players, player)
+
+	player.UniformNumber = "28"
+	player.Country = "Japan"
+	player.Position = "MB"
+	player.FirstName = "Larry"
+	player.SecondName = "Evbade-Dan"
+	player.Height = "195cm"
+	player.Weight = "81kg"
+	player.Spike = "350cm"
+	player.Block = "333cm"
+	player.CurrentClub = "Panasonic Panthers (Japan)"
+	player.DateOfBirth = "December 2, 1999 (age 24)"
+	players = append(players, player)
+
+	player.UniformNumber = "31"
+	player.Country = "Japan"
+	player.Position = "OP"
+	player.FirstName = "Keihan"
+	player.SecondName = "Takahashi"
+	player.Height = "193cm"
+	player.Weight = "78kg"
+	player.Spike = "350cm"
+	player.Block = "325cm"
+	player.CurrentClub = "JTEKT Stings (Japan)"
+	player.DateOfBirth = "October 13, 2003 (age 20)"
+	players = append(players, player)
+
+	player.UniformNumber = "32"
+	player.Country = "Japan"
+	player.Position = "MB"
+	player.FirstName = "Kento"
+	player.SecondName = "Asano"
+	player.Height = "206cm"
+	player.Weight = "93kg"
+	player.Spike = "352cm"
+	player.Block = "UNKNOWN"
+	player.CurrentClub = "Waseda University (Japan)"
+	player.DateOfBirth = "December 24, 2004 (age 19)"
+	players = append(players, player)
+
+	player.UniformNumber = "33"
+	player.Country = "Japan"
+	player.Position = "L"
+	player.FirstName = "Kazuma"
+	player.SecondName = "Sonae"
+	player.Height = "UNKNOWN"
+	player.Weight = "UNKNOWN"
+	player.Spike = "UNKNOWN"
+	player.Block = "UNKNOWN"
+	player.CurrentClub = "VC Nagano Tridents (Japan)"
+	player.DateOfBirth = "January 6, 1998 (age 26)"
+	players = append(players, player)
+
+	player.UniformNumber = "34"
+	player.Country = "Japan"
+	player.Position = "OH"
+	player.FirstName = "Yudai"
+	player.SecondName = "Arai"
+	player.Height = "188cm"
+	player.Weight = "85kg"
+	player.Spike = "350cm"
+	player.Block = "UNKNOWN"
+	player.CurrentClub = "JT Thunders (Japan)"
+	player.DateOfBirth = "June 27, 1998 (age 25)"
+	players = append(players, player)
+
+	player.UniformNumber = "35"
+	player.Country = "Japan"
+	player.Position = "MB"
+	player.FirstName = "Hirohito"
+	player.SecondName = "Kashimura"
+	player.Height = "196cm"
+	player.Weight = "84kg"
+	player.Spike = "345cm"
+	player.Block = "325cm"
+	player.CurrentClub = "Suntory Sunbirds (Japan)"
+	player.DateOfBirth = "January 15, 1999 (age 25)"
+	players = append(players, player)
+
+	player.UniformNumber = "36"
+	player.Country = "Japan"
+	player.Position = "MB"
+	player.FirstName = "Hiromasa"
+	player.SecondName = "Miwa"
+	player.Height = "192cm"
+	player.Weight = "UNKNOWN"
+	player.Spike = "UNKNOWN"
+	player.Block = "UNKNOWN"
+	player.CurrentClub = "JT Thunders (Japan)"
+	player.DateOfBirth = "December 17, 1999 (age 24)"
+	players = append(players, player)
+
+	player.UniformNumber = "37"
+	player.Country = "Japan"
+	player.Position = "S"
+	player.FirstName = "Ryo"
+	player.SecondName = "Shimokawa"
+	player.Height = "UNKNOWN"
+	player.Weight = "UNKNOWN"
+	player.Spike = "UNKNOWN"
+	player.Block = "UNKNOWN"
+	player.CurrentClub = "VC Nagano Tridents (Japan)"
+	player.DateOfBirth = "January 12, 2000 (age 24)"
+	players = append(players, player)
+
+	player.UniformNumber = "17"
+	player.Country = "Japan"
+	player.Position = "OH"
+	player.FirstName = "Hiroki"
+	player.SecondName = "Ozawa"
+	player.Height = "186cm"
+	player.Weight = "UNKNOWN"
+	player.Spike = "UNKNOWN"
+	player.Block = "UNKNOWN"
+	player.CurrentClub = "Toray Arrows (Japan)"
+	player.DateOfBirth = "September 21, 1997 (age 26)"
 	players = append(players, player)
 
 	player.UniformNumber = "11"
@@ -78,6 +318,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "342cm"
 	player.Block = "320cm"
 	player.CurrentClub = "Toray Arrows (Japan)"
+	player.DateOfBirth = "June 20, 1997 (age 26)"
 	players = append(players, player)
 
 	player.UniformNumber = "30"
@@ -90,6 +331,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "352cm"
 	player.Block = "330cm"
 	player.CurrentClub = "Paris Volley (France)"
+	player.DateOfBirth = "September 25, 2003 (age 20)"
 	players = append(players, player)
 
 	player.UniformNumber = "2"
@@ -102,6 +344,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "343cm"
 	player.Block = "330cm"
 	player.CurrentClub = "Suntory Sunbirds (Japan)"
+	player.DateOfBirth = "February 27, 1996 (age 27)"
 	players = append(players, player)
 
 	player.UniformNumber = "6"
@@ -114,6 +357,20 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "354cm"
 	player.Block = "335cm"
 	player.CurrentClub = "Panasonic Panthers (Japan)"
+	player.DateOfBirth = "November 30, 1993 (age 30)"
+	players = append(players, player)
+
+	player.UniformNumber = "7"
+	player.Country = "Japan"
+	player.Position = "MB"
+	player.FirstName = "Kenta"
+	player.SecondName = "Takanashi"
+	player.Height = "190cm"
+	player.Weight = "83kg"
+	player.Spike = "347cm"
+	player.Block = "330cm"
+	player.CurrentClub = "Wolfdogs Nagoya (Japan)"
+	player.DateOfBirth = "March 25, 1997 (age 26)"
 	players = append(players, player)
 
 	player.UniformNumber = "10"
@@ -126,6 +383,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "361cm"
 	player.Block = "350cm"
 	player.CurrentClub = "Toray Arrows (Japan)"
+	player.DateOfBirth = "February 8, 1995 (age 28)"
 	players = append(players, player)
 
 	player.UniformNumber = "12"
@@ -138,6 +396,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "324cm"
 	player.Block = "305cm"
 	player.CurrentClub = "JTEKT Stings (Japan)"
+	player.DateOfBirth = "November 20, 1993 (age 30)"
 	players = append(players, player)
 
 	player.UniformNumber = "29"
@@ -150,6 +409,33 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "330cm"
 	player.Block = "315cm"
 	player.CurrentClub = "CS Dinamo București (Romania)"
+	player.DateOfBirth = "September 23, 2000 (age 23)"
+	players = append(players, player)
+
+	player.UniformNumber = "3"
+	player.Country = "Japan"
+	player.Position = "S"
+	player.FirstName = "Akihiro"
+	player.SecondName = "Fukatsu"
+	player.Height = "183cm"
+	player.Weight = "78kg"
+	player.Spike = "334cm"
+	player.Block = "315cm"
+	player.CurrentClub = "Tokyo Great Bears (Japan)"
+	player.DateOfBirth = "July 23, 1987 (age 36)"
+	players = append(players, player)
+
+	player.UniformNumber = "9"
+	player.Country = "Japan"
+	player.Position = "S"
+	player.FirstName = "Masaki"
+	player.SecondName = "Oya"
+	player.Height = "178cm"
+	player.Weight = "77kg"
+	player.Spike = "330cm"
+	player.Block = "315cm"
+	player.CurrentClub = "Suntory Sunbirds (Japan)"
+	player.DateOfBirth = "March 23, 1995 (age 28)"
 	players = append(players, player)
 
 	player.UniformNumber = "13"
@@ -162,6 +448,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "312cm"
 	player.Block = "290cm"
 	player.CurrentClub = "Wolfdogs Nagoya (Japan)"
+	player.DateOfBirth = "July 4, 1996 (age 27)"
 	players = append(players, player)
 
 	player.UniformNumber = "20"
@@ -174,8 +461,36 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "301cm"
 	player.Block = "299cm"
 	player.CurrentClub = "Panasonic Panthers (Japan)"
+	player.DateOfBirth = "November 5, 1994 (age 29)"
 	players = append(players, player)
 
+	player.UniformNumber = "21"
+	player.Country = "Japan"
+	player.Position = "S"
+	player.FirstName = "Motoki"
+	player.SecondName = "Eiro"
+	player.Height = "192cm"
+	player.Weight = "80kg"
+	player.Spike = "330cm"
+	player.Block = "320cm"
+	player.CurrentClub = "Wolfdogs Nagoya (Japan)"
+	player.DateOfBirth = "June 8, 1996 (age 27)"
+	players = append(players, player)
+
+	player.UniformNumber = "22"
+	player.Country = "Japan"
+	player.Position = "OH"
+	player.FirstName = "Kenya"
+	player.SecondName = "Fujinaka"
+	player.Height = "190cm"
+	player.Weight = "85kg"
+	player.Spike = "340cm"
+	player.Block = "320cm"
+	player.CurrentClub = "Suntory Sunbirds (Japan)"
+	player.DateOfBirth = "July 25, 1993 (age 30)"
+	players = append(players, player)
+
+	//Russia voleyball national team
 	player.UniformNumber = "1"
 	player.Country = "Russia"
 	player.Position = "OH"
@@ -186,6 +501,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "341cm"
 	player.Block = "330cm"
 	player.CurrentClub = "Dinamo Moscow (Russia)"
+	player.DateOfBirth = "3 September 1994 (age 29)"
 	players = append(players, player)
 
 	player.UniformNumber = "4"
@@ -198,6 +514,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "350cm"
 	player.Block = "330cm"
 	player.CurrentClub = "Zenit Kazan (Russia)"
+	player.DateOfBirth = "22 June 1990 (age 34)"
 	players = append(players, player)
 
 	player.UniformNumber = "7"
@@ -210,6 +527,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "340cm"
 	player.Block = "330cm"
 	player.CurrentClub = "Fakel Novy Urengoy (Russia)"
+	player.DateOfBirth = "25 May 1995 (age 28)"
 	players = append(players, player)
 
 	player.UniformNumber = "9"
@@ -222,6 +540,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "360cm"
 	player.Block = "350cm"
 	player.CurrentClub = "Zenit Saint Petersburg (Russia)"
+	player.DateOfBirth = "17 April 1995 (age 28)"
 	players = append(players, player)
 
 	player.UniformNumber = "10"
@@ -234,6 +553,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "350cm"
 	player.Block = "340cm"
 	player.CurrentClub = "Fakel Novy Urengoy (Russia)"
+	player.DateOfBirth = "13 October 1996 (age 27)"
 	players = append(players, player)
 
 	player.UniformNumber = "11"
@@ -246,6 +566,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "345cm"
 	player.Block = "330cm"
 	player.CurrentClub = "Dinamo Moscow (Russia)"
+	player.DateOfBirth = "14 August 1995 (age 28)"
 	players = append(players, player)
 
 	player.UniformNumber = "15"
@@ -258,6 +579,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "360cm"
 	player.Block = "340cm"
 	player.CurrentClub = "Zenit Saint Petersburg (Russia)"
+	player.DateOfBirth = "27 July 1995 (age 28)"
 	players = append(players, player)
 
 	player.UniformNumber = "17"
@@ -270,6 +592,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "360cm"
 	player.Block = "340cm"
 	player.CurrentClub = "Zenit Kazan (Russia)"
+	player.DateOfBirth = "19 March 1988 (age 35)"
 	players = append(players, player)
 
 	player.UniformNumber = "18"
@@ -282,6 +605,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "370cm"
 	player.Block = "350cm"
 	player.CurrentClub = "Zenit Saint Petersburg (Russia)"
+	player.DateOfBirth = "15 June 1995 (age 28)"
 	players = append(players, player)
 
 	player.UniformNumber = "20"
@@ -294,6 +618,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "355cm"
 	player.Block = "335cm"
 	player.CurrentClub = "Lokomotiv Novosibirsk (Russia)"
+	player.DateOfBirth = "18 January 1994 (age 30)"
 	players = append(players, player)
 
 	player.UniformNumber = "24"
@@ -306,6 +631,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "337cm"
 	player.Block = "315cm"
 	player.CurrentClub = "Kuzbass Kemerovo (Russia)"
+	player.DateOfBirth = "13 April 1991 (age 32)"
 	players = append(players, player)
 
 	player.UniformNumber = "27"
@@ -318,6 +644,7 @@ func PrepareTeam() []structs.Player {
 	player.Spike = "310cm"
 	player.Block = "305cm"
 	player.CurrentClub = "Belogorie (Russia)"
+	player.DateOfBirth = "3 May 1992 (age 31)"
 	players = append(players, player)
 	return players
 }

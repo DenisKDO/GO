@@ -10,5 +10,5 @@ func HealthCheck(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
 
 	//response
-	fmt.Fprintf(w, "API by Kim Denis Olegovich\n Mini API related to Japan National Voleyball team")
+	fmt.Fprintf(w, "API by Kim Denis Olegovich\n Mini API related to National Voleyball teams")
 }
