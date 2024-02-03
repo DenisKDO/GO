@@ -2,6 +2,7 @@ package _func
 
 import "github.com/DenisKDO/TSIS1/pkg/structs"
 
+// making team
 func PrepareTeam() []structs.Player {
 	var players []structs.Player
 
