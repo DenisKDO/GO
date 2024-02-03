@@ -13,6 +13,7 @@ func main() {
 	//specify endpoints, handler functions and HTTP methods
 	router.HandleFunc("/health-check", _func.HealthCheck).Methods("GET")
 	router.HandleFunc("/team/{country}", _func.GetTeam).Methods("GET")
+	router.HandleFunc("/team", _func.GetTeams).Methods("GET")
 	router.HandleFunc("/team/{country}/{position}/{uniformnumber}", _func.GetPlayer).Methods("GET")
 	http.Handle("/", router)
 	//start and listen to request
